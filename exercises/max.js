@@ -16,6 +16,7 @@ function max (a,b){
 	}
 	else {
 		return b;
+		
 	}
 }
 //* Begin of tests

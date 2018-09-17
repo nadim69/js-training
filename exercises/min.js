@@ -16,6 +16,7 @@ function min (a,b){
 	}
 	else {
 		return b;
+		
 	}
 }
 //* Begin of tests

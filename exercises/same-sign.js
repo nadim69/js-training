@@ -21,6 +21,7 @@ function sameSign (a,b){
 	
 	else{
 		return false;
+	
 	}
 }
 //* Begin of tests

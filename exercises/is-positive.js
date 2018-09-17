@@ -17,6 +17,7 @@ function isPositive(num) {
     } else if (num <= 0) {
         result = false;
     }
+    
     return result;
 }
 
