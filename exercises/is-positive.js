@@ -8,6 +8,17 @@
  */
 
 // Your code:
+function isPositive(num) {
+
+    var result;
+
+    if (num > 0) {
+        result = true;
+    } else if (num <= 0) {
+        result = false;
+    }
+    return result;
+}
 
 
 //* Begin of tests

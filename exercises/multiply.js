@@ -10,6 +10,26 @@
 
 // Your code :
 
+function multiply(a,b){
+
+let addition = 0;
+
+if (b > 0){
+  	for (let i = 0 ; i < b ; i++){
+  			addition = addition + a
+  	}
+  	return addition;
+}
+
+else{
+	for (let i = 0 ; i > b ; i--){
+
+		addition = addition - a
+	}
+	return addition;
+}
+}
+
 //* Begin of tests
 const assert = require('assert')
 

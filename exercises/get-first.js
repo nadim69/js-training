@@ -8,7 +8,9 @@
  */
 
 // Your code :
-
+function getFirst([array]){
+	return (array.shift);
+}
 //* Begin of tests
 const assert = require('assert')
 

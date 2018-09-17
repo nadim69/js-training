@@ -10,8 +10,20 @@
  */
 
 // Your code :
+function abs(x){
 
-//* Begin of tests
+  if (x > 0){
+  	return x;
+  }
+  else if (x < 0){
+  	return -x;
+  }
+  else {
+  	return 0;
+  }
+}
+
+  //* Begin of tests
 const assert = require('assert')
 
 assert.strictEqual(typeof abs, 'function')
