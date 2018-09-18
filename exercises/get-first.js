@@ -8,8 +8,8 @@
  */
 
 // Your code :
-function getFirst([array]){
-	return (array.shift);
+function getFirst (array){
+	{for(var i in array)return array[i];}
 }
 //* Begin of tests
 const assert = require('assert')
