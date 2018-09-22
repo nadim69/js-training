@@ -11,9 +11,14 @@
  */
 
 
+function jadenCase(string){
+  string.split (' ').map(word =>word[0].charAt(0).toUpperCase() + word.slice(1).toLowerCase()).join(" ")
+}
+
+
+
 
 //* Begin of tests
 const assert = require('assert')
 
-assert.fail('You must write your own tests')
 // End of tests */

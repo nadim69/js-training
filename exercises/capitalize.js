@@ -6,6 +6,11 @@
  * and in lowercase for the rest of the string
  *
  */
+ 
+function capitalize (string){
+   string.split().map(word=>word[0].toUpperCase()word.slice()toLowerCase().join('')
+}
+ 
 
 
 //* Begin of tests
